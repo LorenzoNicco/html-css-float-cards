@@ -38,6 +38,7 @@ h1{
     height: 120px;
     float: left;
     margin-top: 50px;
+    box-shadow: 5px 5px 18px 1px rgba(0,0,0,0.43);
 }
 
 .laura, .roberto{
@@ -45,7 +46,7 @@ h1{
 }
 
 img{
-    height: 120px;
+    height: 100%;
     float: left;
     margin-right: 20px;
 }
