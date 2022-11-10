@@ -29,7 +29,8 @@ h1{
 #text{
     text-align: center;
     margin-top: 50px;
-    width: 100%;
+    text-align: justify;
+    text-align-last: center;
 }
 
 .card{
@@ -52,17 +53,17 @@ img{
 }
 
 .contact{
-    margin: 20px 0;
+    margin: 4% 0;
 }
 
 h3{
     color: white;
-    margin-bottom: 5px;
+    margin-bottom: 3%;
 }
 
 .job{
     color: white;
-    margin-bottom: 5px;
+    margin-bottom: 3%;
 }
 
 a{
