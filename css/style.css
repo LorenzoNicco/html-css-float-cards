@@ -20,26 +20,51 @@ body{
 /*header*/
 h1{
     color: #e53170;
-    font-weight: bold;
+    font-weight: 900;
     text-align: center;
     margin-top: 20px;
 }
 
 /*corpo principale*/
-p{
+#text{
     text-align: center;
     margin-top: 50px;
-
+    width: 100%;
 }
 
 .card{
-    background-color: red;
+    background-color: black;
     width: calc(96% / 3);
-    height: 150px;
+    height: 120px;
     float: left;
     margin-top: 50px;
 }
 
 .laura, .roberto{
     margin: 50px 2% 0;
+}
+
+img{
+    height: 120px;
+    float: left;
+    margin-right: 20px;
+}
+
+.contact{
+    margin: 20px 0;
+}
+
+h3{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.job{
+    color: white;
+    margin-bottom: 5px;
+}
+
+a{
+    color: #4dccf2;
+    text-decoration: none;
 }
