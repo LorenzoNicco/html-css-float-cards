@@ -1,5 +1,45 @@
-* {
+/*regole generali*/
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    margin: 0 auto;
+}
+
+/*header*/
+h1{
+    color: #e53170;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*corpo principale*/
+p{
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.card{
+    background-color: red;
+    width: calc(96% / 3);
+    height: 150px;
+    float: left;
+    margin-top: 50px;
+}
+
+.laura, .roberto{
+    margin: 50px 2% 0;
 }
